@@ -1,0 +1,359 @@
+/*-------------------------------------------------
+    [ ### font-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### font-variable end ]
+*/
+/*-------------------------------------------------
+    [ ### font_family-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### font_family-variable end ]
+*/
+/*-------------------------------------------------
+    [ ### font_size-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### font_size-variable end ]
+*/
+/*-------------------------------------------------
+    [ ### line_height-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### line_height-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### initial-color-variable start ]
+*/
+/*-------------------------------------------------
+    [ ### initial-color-variable end ]
+*/
+/*--------------------------------------------------------------
+    [ ## Sections ]
+--------------------------------------------------------------*/
+.main-dark-version {
+  background-color: #1c1e21;
+  color: #dfdfdf;
+}
+.main-dark-version h1, .main-dark-version h2, .main-dark-version h3, .main-dark-version h4, .main-dark-version h5, .main-dark-version h6 {
+  color: white;
+}
+.main-dark-version .bg--gray {
+  background-color: #222529;
+}
+.main-dark-version .top-message {
+  color: white;
+}
+.main-dark-version .header-dropdown ul a {
+  color: white;
+}
+.main-dark-version .header-social a {
+  color: white;
+}
+.main-dark-version .navbar-collapse .main-menu li a {
+  color: white;
+}
+.main-dark-version .header-contact a {
+  color: white;
+}
+.main-dark-version .header-middle-area {
+  color: white;
+}
+.main-dark-version .icon--style i {
+  color: white;
+}
+.main-dark-version .header-dropdown .language-select {
+  color: white;
+}
+.main-dark-version .header-top-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .header-middle-area {
+  box-shadow: none;
+  border: none;
+}
+.main-dark-version .copyright-area p {
+  color: white;
+}
+.main-dark-version .separator {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .product-default:hover::before, .main-dark-version .product-default.active::before {
+  box-shadow: -3px -3px 8px rgba(34, 34, 53, 0.95), 3px 3px 8px rgba(12, 11, 14, 0.82);
+}
+.main-dark-version .product-default .price-box .product-price {
+  color: white;
+}
+.main-dark-version .blog-content .title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .bg-overlay-white:before {
+  background: -webkit-linear-gradient(4deg, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  opacity: 1;
+}
+.main-dark-version .footer-section.bg-overlay-white:before {
+  background: #000000;
+  opacity: .8;
+}
+.main-dark-version .footer-widget p {
+  color: white;
+}
+.main-dark-version .footer-links li {
+  color: white;
+}
+.main-dark-version .product-default::before {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .product-default .product-details {
+  border: none;
+}
+.main-dark-version .template-version .color-version-area {
+  background-color: #222529;
+}
+.main-dark-version .preloader {
+  background-color: #1c1e21;
+}
+.main-dark-version .breadcrumb li {
+  color: white;
+}
+.main-dark-version .breadcrumb-item.active::before {
+  color: white;
+}
+.main-dark-version .breadcrumb-area {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .sidebar-home .widget {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .side-menu-wrapper {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .price-range label {
+  color: white;
+}
+.main-dark-version .price-range input {
+  color: white;
+}
+.main-dark-version .side-menu li a {
+  color: white;
+}
+.main-dark-version .side-menu li a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .color-list li span {
+  color: white;
+}
+.main-dark-version .pagination .page-item a, .main-dark-version .pagination .page-item span {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .toolbox label {
+  color: white;
+}
+.main-dark-version .toolbox .select-custom .form-control {
+  background-color: #1c1e21;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version option {
+  color: white;
+  background-color: #1c1e21;
+}
+.main-dark-version .header-dropdown ul {
+  background-color: #222529;
+  border: none;
+}
+.main-dark-version .mobile-menu-container {
+  background-color: #222529;
+}
+.main-dark-version .mobile-menu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .mobile-menu li a {
+  color: white;
+}
+.main-dark-version .mobile-menu-close {
+  color: white;
+}
+.main-dark-version p {
+  color: white;
+}
+.main-dark-version .select-custom:after {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.main-dark-version .product-details-content .price-box {
+  color: white;
+}
+.main-dark-version .product-single-filter label {
+  color: white;
+}
+.main-dark-version .product-quantity .product-plus-minus .product-plus-minus-box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .product-quantity .product-plus-minus .dec.qtybutton {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .product-quantity .product-plus-minus .inc.qtybutton {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .product-single-tab .nav-tabs .nav-item .nav-link {
+  color: white;
+}
+.main-dark-version .product-desc-content ul li {
+  color: white;
+}
+.main-dark-version .product-single-tab .nav-tabs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .product-action {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .product-single-share .social-icon {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dfdfdf;
+}
+.main-dark-version .product-reviews-content .reviews-title {
+  color: white;
+}
+.main-dark-version .product-reviews-content .avatar-name {
+  color: white;
+}
+.main-dark-version .product-reviews-content .comment-info {
+  color: #dfdfdf;
+}
+.main-dark-version .product-reviews-content .comment-container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 991px) {
+  .main-dark-version .mobile-sidebar {
+    background-color: #1c1e21;
+  }
+}
+.main-dark-version blockquote {
+  background-color: #222529;
+  color: white;
+}
+.main-dark-version blockquote .quote-icon {
+  color: white;
+}
+.main-dark-version .blog-social-area {
+  background-color: #222529;
+}
+.main-dark-version .blog-social-area .title {
+  color: white;
+}
+.main-dark-version .blog-social-area .blog-social li {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dfdfdf;
+}
+.main-dark-version .widget-box {
+  background-color: #222529;
+}
+.main-dark-version .widget-box .widget-title {
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .single-popular-item .popular-item-content .title {
+  color: white;
+}
+.main-dark-version .single-popular-item .popular-item-content .blog-date {
+  color: #dfdfdf;
+}
+.main-dark-version .dropdownmenu-wrapper {
+  background-color: #1c1e21;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .dropdown-cart-header, .main-dark-version .dropdown-cart-total {
+  color: white;
+}
+.main-dark-version .dropdown-cart-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .cart-dropdown .product {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .cart-dropdown .product-title {
+  color: white;
+}
+.main-dark-version .cart-dropdown .dropdown-menu, .main-dark-version .compare-dropdown .dropdown-menu {
+  color: white;
+}
+.main-dark-version .cart-dropdown .dropdown-menu:before {
+  border-color: transparent transparent rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .product-single-filter .config-size-list li a {
+  background-color: #222529;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .product-single-filter .config-size-list li.active a {
+  border: 1px solid #0088cc;
+}
+.main-dark-version .header-dropdown a {
+  color: white;
+}
+.main-dark-version .mobile-menu-toggler {
+  color: white;
+}
+.main-dark-version .contact-area {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .contact-form-area {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-dark-version .contact-area input, .main-dark-version .contact-area textarea {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dfdfdf;
+}
+.main-dark-version .contact-area input:focus, .main-dark-version .contact-area textarea:focus {
+  background-color: #222529;
+  box-shadow: none;
+}
+.main-dark-version .contact-area input::placeholder, .main-dark-version .contact-area textarea::placeholder {
+  color: #dfdfdf;
+}
+.main-dark-version .add-cart-box {
+  background-color: #222529;
+}
+.main-dark-version .modal-content {
+  background-color: #222529;
+}
+.main-dark-version .modal-close-btn {
+  color: white !important;
+}
+.main-dark-version .custom-table tbody tr {
+  background-color: #222529;
+}
+.main-dark-version .custom-table tbody tr td {
+  color: white;
+}
+.main-dark-version .form--control {
+  background-color: #222529;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .form--control:focus {
+  background-color: #222529;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.main-dark-version .form--control::placeholder {
+  color: white;
+}
+.main-dark-version .tracking-area {
+  background-color: #222529;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+.main-dark-version .tracking-list-area .tracking-list li {
+  color: white;
+}
+.main-dark-version .tracking-updates-area .title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

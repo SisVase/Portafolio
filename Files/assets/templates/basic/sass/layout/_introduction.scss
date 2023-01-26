@@ -1,0 +1,91 @@
+.banner-section{
+    position: relative;
+    z-index: 9;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.banner-thumb-area{
+    position: absolute;
+    top: -4px;
+    right: -143px;
+    animation: ImgAnimate 3s infinite linear .2s;
+    @media only screen and (max-width: 1520px) {
+        position: unset;
+    }
+    .banner-thumb{
+        max-width: 650px;
+    }
+    img{
+        width: 100%;
+    }
+}
+.banner-content{
+    .sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        font-style: italic;
+        margin-bottom: 15px;
+        padding-left: 60px;
+        position: relative;
+        @media only screen and (max-width: 991px) {
+            font-size: 14px;
+            padding-left: 40px;
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            top: 7px;
+            left: 0;
+            width: 50px;
+            height: 1px;
+            background-color: $bg--base;
+            @media only screen and (max-width: 991px) {
+                width: 30px;
+            }
+        }
+    }
+    .title{
+        line-height: 1em;
+        margin-bottom: 15px;
+    }
+    p{
+        font-family: $font_heading;
+        font-size: 14px;
+    }
+    .banner-btn{
+        margin-top: 40px;
+    }
+}
+.breadcrumb-area{
+    border-bottom: 1px solid $border--base;
+}
+.breadcrumb{
+    background-color: transparent;
+    padding: 0.6rem 0;
+    margin-bottom: 0;
+}
+.breadcrumb li{
+    color: $color__heading;
+    font-family: $font_heading;
+    font-size: 10px;
+}
+.breadcrumb-item a{
+    font-weight: 600;
+    font-size: 10px;
+    position: relative;
+    z-index: 2;
+}
+.breadcrumb-item.active{
+    font-weight: 600;
+    color: $color__heading;
+    font-size: 10px;
+    position: relative;
+    z-index: 2;
+}
+.breadcrumb-item.active::before{
+    content: "/";
+    font-weight: 600;
+    color: $color__heading;
+    font-size: 10px;
+    left: 0;
+}

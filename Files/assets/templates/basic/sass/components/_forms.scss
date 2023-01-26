@@ -1,0 +1,122 @@
+/*-------------------------------------------------
+    [ ## Fields ]
+*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    &:focus {
+        outline: none;
+    }
+}
+// select {
+//     appearance: none;
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+// }
+input,textarea{
+    padding: 12px 20px;
+    &::placeholder{
+        color: $color__text;
+    }
+}
+textarea {
+    display: block;
+    width: 100%;
+    display: block;
+    min-height: 120px;
+}
+input,
+select,
+textarea {
+    border: 1px solid $border--base;
+    vertical-align: baseline;
+    font-size: 100%;
+    color: $color__text;
+}
+label {
+    font-size: 14px;
+    color: $white;
+    font-family: $font_heading;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+/*--------Select----------*/
+select{
+    outline: none;
+    cursor: pointer;
+}
+option{
+    color: $color__heading;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form--control{
+    background-color: $white;
+    border: 1px solid $border--base;
+    box-shadow: none;
+    height: 38px;
+    padding: 10px 10px;
+    color: $color__heading;
+    font-family: $font_heading;
+    font-weight: 600;
+    border-radius: 0;
+    font-size: 12px;
+    width: 100%;
+    &:focus{
+        background-color: $white;
+        border: 1px solid $border--base;
+        box-shadow: none;
+        color: $color__heading;
+    }
+    &::placeholder{
+        color: $color__heading;
+    }
+}
+.checkbox-wrapper{
+    margin-top: 10px;
+    .checkbox-item{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        input[type="checkbox"]{
+            width: 12px;
+            height: 12px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            margin-right: 10px;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 0;
+            @media only screen and (max-width: 991px) {
+                width: 24px;
+            }
+        }
+        label{
+            margin: 0;
+            color: $white;
+            font-size: 14px;
+            a{
+                color: $text--base;
+            }
+        }
+    }
+}
+.forgot-password{
+    a{
+      color: $text--base;
+      font-weight: 600;
+    }
+}
+.submit-btn{
+    padding: 8px 30px;
+    width: 100%;
+    color: $white;
+    background-color: $bg--base;
+    font-family: $font_heading;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}

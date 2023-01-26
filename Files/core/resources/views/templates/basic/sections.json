@@ -1,0 +1,255 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "images":{
+                "banner":{
+                    "size":"1920x1080"
+                },
+                "image":{
+                    "size":"750x435"
+                }
+            },
+            "title": "text",
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "heading": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Heading Section",
+        "content": {
+            "heading": "text",
+            "contact": "text",
+            "contact_number": "text"
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1048x575"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"56x56"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "textarea",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"1920x1080"
+                }
+            },
+            "title": "text",
+            "short_description": "textarea",
+            "description_nic": "textarea-nic",
+            "modal": false
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1920x1080"
+                }
+            },
+            "text": "text"
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text",
+            "map_latitude": "text",
+            "map_longitude": "text"
+        },
+        "element":{
+            "address_title":"text",
+            "address":"text",
+            "icon":"icon",
+            "modal":true
+        }
+    },
+    "action": {
+        "builder": true,
+        "name": "Action Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1920x1080"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "how_it_work": {
+        "builder": true,
+        "name": "How It Work",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"465x335"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        },
+        "element":{
+            "heading":"text",
+            "sub_heading":"textarea",
+            "modal":true
+        }
+    },
+    "info": {
+        "builder": true,
+        "name": "Information Section",
+        "element": {
+            "heading":"text",
+            "sub_heading":"text",
+            "icon":"icon",
+            "modal":true
+        }
+    },
+    "overview1": {
+        "builder": true,
+        "name": "First Overview",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"595x290"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"51x51"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "modal": true
+        }
+    },
+    "overview2": {
+        "builder": true,
+        "name": "Second Overview",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1045x575"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"23x38"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "modal": true
+        }
+    },
+    "product": {
+        "builder": true,
+        "name": "Product Section",
+        "content": {
+        }
+    },
+    "video": {
+        "builder": true,
+        "name": "Video Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1920x1080"
+                }
+            },
+            "embed_link":"text"
+        }
+    },
+    "track": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Tracking Page",
+        "content": {
+            "heading":"text",
+            "sub_heading":"text"
+        }
+    },
+    "payment": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Payment",
+        "content": {
+            "description":"text"
+        }
+    }
+}
+
+
